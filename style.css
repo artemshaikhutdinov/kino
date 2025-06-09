@@ -1,0 +1,123 @@
+body {
+  margin: 0px 0px;
+}
+
+/*header settings*/
+
+header {
+  background-image: url(/imagebanner.jpeg);
+  height: 150px;
+  background-size: cover; /*stretch the picture to the size of the header*/
+  position: sticky;
+  top: 0px;
+}
+
+header > div {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  gap: 100px;
+  align-items: center;
+}
+
+.oscar_desc {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.play_desc {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  opacity: 0.7;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  opacity: 0.7;
+  font-size: large;
+}
+
+.logo {
+  height: 50px;
+}
+
+.play_desc:hover {
+  opacity: 1;
+}
+
+.oscar_desc:hover {
+  opacity: 1;
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+
+/*movies settings*/
+
+main {
+  padding: 10px 10px;
+  gap: 10px;
+  display: flex;
+}
+
+main > div {
+  display: flex;
+  height: 400px;
+}
+
+/* settings of elements inside the banner */
+.buttonTickets {
+  background-color: #ff5502;
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Calibri, sans-serif;
+  font-weight: 100;
+  padding: 5px 5px;
+  transition: 0.5s;
+}
+
+.movie {
+  position: relative;
+  transition: 0.5s;
+}
+
+.rating_m1 {
+  background-color: #3bb33a;
+  position: absolute;
+  padding: 5px 5px;
+  left: 10px;
+  font-family: Calibri, sans-serif;
+  font-weight: 500;
+}
+
+.rating_m2 {
+  background-color: #ff0000;
+  position: absolute;
+  padding: 5px 5px;
+  left: 10px;
+  font-family: Calibri, sans-serif;
+  font-weight: 500;
+}
+
+main > div > h3 {
+  color: white;
+}
+
+.buttonTickets:hover {
+  background-color: azure;
+  color: black;
+}
