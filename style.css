@@ -5,7 +5,7 @@ body {
 /*header settings*/
 
 header {
-  background-image: url(/files/imagebanner.jpeg);
+  background-image: url(files/imagebanner.jpeg);
   height: 150px;
   background-size: cover; /*stretch the picture to the size of the header*/
   position: sticky;
