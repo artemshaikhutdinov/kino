@@ -12,6 +12,9 @@ header {
   position: sticky;
   top: 0px;
   flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
 }
 
 header > div {
